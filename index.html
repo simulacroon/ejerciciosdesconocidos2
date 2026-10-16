@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f2e2d7">
+  <title>Ejercicios Desconocidos — Propuesta 02</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main id="app">
+    <section class="page home" id="index" aria-label="Inicio">
+      <header class="home-header">
+        <div class="brand-wordmark">EJERCICIOS<br>DESCONOCIDOS</div>
+        <div class="brand-tags">CINE<br>TERRITORIO<br>FORMACIÓN<br>CREACIÓN</div>
+        <div class="brand-about">ARCHIVO AUDIOVISUAL<br>DEL LLANO COLOMBIANO <span class="orange-dot"></span></div>
+      </header>
+      <div class="home-body">
+        <div class="home-photo" role="img"  style="background-image: url('img/1.jpg');">
+          <img class="home-logo" src="assets/ED-27.svg" alt="Logo ED-27">
+          <div class="home-photo-caption">CINE · TERRITORIO · FORMACIÓN · CREACIÓN</div>
+        </div>
+        <nav class="home-nav" aria-label="Navegación principal">
+          <a href="#index"><small>01</small><span>INDEX</span><b>↗</b></a>
+          <a href="#exhibicion"><small>02</small><span>EXHIBICIÓN</span><b>↗</b></a>
+          <a href="#formacion"><small>03</small><span>FORMACIÓN</span><b>↗</b></a>
+          <a href="#produccion"><small>04</small><span>PRODUCCIÓN</span><b>↗</b></a>
+          <a href="#servicios"><small>05</small><span>OTROS SERVICIOS</span><b>↗</b></a>
+          <a href="#nosotros"><small>06</small><span>NOSOTROS</span><b>↗</b></a>
+          <div class="social">IG <span>YT</span> VIMEO</div>
+        </nav>
+      </div>
+      <footer class="home-footer"><span>YOPAL, COLOMBIA</span><span>2026</span></footer>
+    </section>
+
+   <section
+  class="page reveal-page"
+  id="exhibicion"
+  data-default-open="1"
+  style="--scene: url('img/cineforo.jpg');">
+      <div class="scene" aria-hidden="true"></div>
+      <header class="scene-header"><a href="#index">← MENÚ</a><span>EJERCICIOS DESCONOCIDOS</span><span>02 / 06</span></header>
+      <div class="reveal-columns">
+        <button class="reveal-panel" type="button" data-panel="0" data-modal="exhibicion"><span class="panel-label">EXHIBICIÓN</span><span class="panel-desc">EL CINE COMO LUGAR DE ENCUENTRO</span><span class="panel-link">EXPLORAR ↗</span></button>
+        <button class="reveal-panel" type="button" data-panel="1" data-modal="exhibicion"><span class="panel-label">IMÁGENES EN MOVIMIENTO</span><span class="panel-desc">CINE · COMUNIDAD · TERRITORIO</span><span class="panel-link">EXPLORAR ↗</span></button>
+        <button class="reveal-panel" type="button" data-panel="2" data-modal="exhibicion"><span class="panel-label">PROGRAMACIÓN</span><span class="panel-desc">MUESTRAS, PROYECCIONES Y CONVERSACIONES</span><span class="panel-link">EXPLORAR ↗</span></button>
+      </div>
+      <footer class="scene-footer"><span>EXHIBICIÓN</span><span>DESLIZA EL CURSOR PARA DESCUBRIR LA IMAGEN</span><a href="#formacion">SIGUIENTE →</a></footer>
+    </section>
+
+    <section class="page reveal-page" id="formacion" data-default-open="2" style="--scene:url('img/formacion.jpg')">
+      <div class="scene" aria-hidden="true"></div>
+      <header class="scene-header"><a href="#index">← MENÚ</a><span>EJERCICIOS DESCONOCIDOS</span><span>03 / 06</span></header>
+      <div class="reveal-columns">
+        <button class="reveal-panel" type="button" data-panel="0" data-modal="formacion"><span class="panel-label">FORMACIÓN</span><span class="panel-desc">APRENDER A TRAVÉS DEL CINE</span><span class="panel-link">EXPLORAR ↗</span></button>
+        <button class="reveal-panel" type="button" data-panel="1" data-modal="formacion"><span class="panel-label">LABORATORIOS</span><span class="panel-desc">CREACIÓN COLECTIVA Y EXPERIENCIAS PEDAGÓGICAS</span><span class="panel-link">EXPLORAR ↗</span></button>
+        <button class="reveal-panel" type="button" data-panel="2" data-modal="formacion"><span class="panel-label">TALLERES</span><span class="panel-desc">HERRAMIENTAS PARA CONTAR HISTORIAS</span><span class="panel-link">EXPLORAR ↗</span></button>
+      </div>
+      <footer class="scene-footer"><span>FORMACIÓN</span><span>DESLIZA EL CURSOR PARA DESCUBRIR LA IMAGEN</span><a href="#produccion">SIGUIENTE →</a></footer>
+    </section>
+
+    <section class="page reveal-page" id="produccion" data-default-open="0" style="--scene:url('img/corto.jpg')">
+      <div class="scene" aria-hidden="true"></div>
+      <header class="scene-header"><a href="#index">← MENÚ</a><span>EJERCICIOS DESCONOCIDOS</span><span>04 / 06</span></header>
+      <div class="reveal-columns">
+        <button class="reveal-panel" type="button" data-panel="0" data-modal="produccion"><span class="panel-label">PRODUCCIÓN</span><span class="panel-desc">HISTORIAS DESDE EL TERRITORIO</span><span class="panel-link">EXPLORAR ↗</span></button>
+        <button class="reveal-panel" type="button" data-panel="1" data-modal="produccion"><span class="panel-label">PELÍCULAS</span><span class="panel-desc">PROCESOS, RELATOS Y OBRAS AUDIOVISUALES</span><span class="panel-link">EXPLORAR ↗</span></button>
+        <button class="reveal-panel" type="button" data-panel="2" data-modal="produccion"><span class="panel-label">CREACIÓN</span><span class="panel-desc">DESARROLLO Y PRODUCCIÓN CINEMATOGRÁFICA</span><span class="panel-link">EXPLORAR ↗</span></button>
+      </div>
+      <footer class="scene-footer"><span>PRODUCCIÓN</span><span>DESLIZA EL CURSOR PARA DESCUBRIR LA IMAGEN</span><a href="#servicios">SIGUIENTE →</a></footer>
+    </section>
+
+    <section class="page services-page" id="servicios">
+      <header class="scene-header"><a href="#index">← MENÚ</a><span>EJERCICIOS DESCONOCIDOS</span><span>05 / 06</span></header>
+      <div class="services-content"><p>OTRAS FORMAS DE CREAR</p><h1>OTROS<br>SERVICIOS<span class="orange">.</span></h1><p>ACOMPAÑAMIENTO CREATIVO · PRODUCCIÓN AUDIOVISUAL · PROYECTOS CULTURALES</p><button class="outline-button" data-modal="servicios">CONOCER SERVICIOS ↗</button></div>
+      <footer class="scene-footer"><span>YOPAL, COLOMBIA</span><span>CREACIÓN Y COLABORACIÓN</span><a href="#nosotros">SIGUIENTE →</a></footer>
+    </section>
+
+    <section class="page people-page" id="nosotros">
+      <header class="scene-header"><a href="#index">← MENÚ</a><span>EJERCICIOS DESCONOCIDOS</span><span>06 / 06</span></header>
+      <div class="people-grid">
+       <!-- INTEGRANTE 01 -->
+      <button class="person" data-person="0">
+     <img src="img/FOTOS/Jonas.jpg" alt="Retrato del integrante 1">
+     <span>JONAS</span>
+     </button>
+
+      <!-- INTEGRANTE 02 -->
+       <button class="person" data-person="1">
+      <img src="img/FOTOS/Juliana.jpg" alt="Retrato del integrante 2">
+       <span> JULIANA</span>
+       </button>
+
+      <!-- INTEGRANTE 03 -->
+      <button class="person" data-person="2">
+      <img src="img/FOTOS/Daniel.jpg" alt="Retrato del integrante 3">
+      <span>DANIEL</span>
+      </button>
+      <footer class="scene-footer"><span>NOSOTROS</span><span>SELECCIONA UN RETRATO PARA LEER SU BIOGRAFÍA</span><a href="#index">VOLVER AL INDEX ↑</a></footer>
+    </section>
+  </main>
+
+  <dialog id="info-dialog" class="info-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Cerrar">×</button>
+    <div class="dialog-kicker">EJERCICIOS DESCONOCIDOS / 2026</div>
+    <h2 id="dialog-title"></h2>
+    <p id="dialog-description"></p>
+    <p class="dialog-note">Contenido de demostración: sustituye estos textos por los datos y proyectos reales.</p>
+  </dialog>
+</body>
+</html>
